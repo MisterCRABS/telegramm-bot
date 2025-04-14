@@ -1,3 +1,7 @@
 # telegramm-bot
 
-Чтобы запустить docker контейнер необходимо клонировать этот репозиторий себе на компьютер и запустить dockerfile при помощи команды 'dockerrun'
+## Запуск через Docker
+
+bash
+docker build -t my-bot .
+docker run -it my-bot
